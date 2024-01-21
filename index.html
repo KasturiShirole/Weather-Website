@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My WheatherPalette</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="card">
+    <div class="search">
+      <input type="text" placeholder="Enter city name" spellcheck="false">
+      <button><img src="search.png"></button>
+    </div>
+    <div class="weather">
+      <img src="weatherIcon.png" class="weather-icon">
+      <h1 class="Temp"> <span id="temp2"></span>&#8451</h1>
+      <h2 class="city"><span id="cityName"></span></h2>
+      <div class="details">
+        <div class="col">
+          <img src="humidity.png">
+          <div>
+            <p class="Humidity"><span id="humidity"></span>%</p>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="wind.png">
+          <div>
+            <p class="wind"><span id="wind_speed"></span>km/h</p>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
